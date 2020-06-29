@@ -3,20 +3,26 @@
 <head>
 	<title>Home</title>
 	<meta charset="UTF-8">
+
 	<link rel="stylesheet" href="assets/css/styles.css">
 	<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="assets/js/slides_animation.js"></script>
+	
 </head>
 
 <body>
+
 	<!-- Header -->
 	<div class="navbar">
-		<a href="_layouts/home.php">
+		<a href="index.html">
 		<img src="./images/logo.jpg" alt="logo" width="60" height="50"/>
 		<p> Tayssir Doghri </p>
 		</a>
 		
 	  	<div class="navbar-right">
-			<a href="_layouts/home.php">
+			<a href="index.html">
 				<p> Home </p>
 			</a>
 
@@ -36,7 +42,74 @@
 	</div>
  
 	
+	<div  class="section-white">
+		<h2>Tutorials</h2>
+
+		
+		
+	</div>
+
+
+	<div class="section-color">
+		<h2>Cycling x Photography</h2>
+		The best of both worlds. Workout and explore new places.
+		<!-- slideshow -->
+		<div class="container" id="container">
+			<ul>
+				<li class="active">
+					<img src="images/taydo_cycling_forest.jpg" alt="" width="600" height="600" />
+				</li>
+				<li>
+					<img src="images/taydo_cycling_vintage.jpg" alt=""  width="600" height="600" />
+				</li>
+				<li>
+					<img src="images/taydo_cycling_path.jpg" alt="" width="600" height="600" />
+				</li>
+			</ul>
+		</div>
+	</div>
+ 	
+
+	<div  class="section-white">
+		<h2>Nature</h2>
+		Mesmerizing beauty that needs no filters.
+
+		<table align="center" >
+		  <tr >
+		    <td>
+		    	<div id="image">
+				     <img src="images/taydo_tree1.jpg" alt="" width="240" height="240" />
+				</div>
+		    </td>
+		    <td>
+		    	<div id="image">
+				     <img src="images/taydo_sunset1.jpg" alt="" width="240" height="240" />
+				</div>
+		    </td>
+		    <td>
+		    	<div id="image">
+				     <img src="images/taydo_tree2.jpg" alt="" width="240" height="240" />
+				</div>
+		    </td>
+		    <td>
+		    	<div id="image">
+				     <img src="images/taydo_sunset2.jpg" alt="" width="240" height="240" />
+				</div>
+		    </td>
+		    <td>
+		    	<a href="_layouts/home.php">
+				<i class="fa fa-arrow-right" aria-hidden="true"></i>
+				View all
+				</a>
+		    </td>
+		  </tr>
+		</table>
+		
+	</div>
+	
+
 	<!-- Footer -->
+
 	<footer id="footer">
 		<table align="center">
 		  <tr>
@@ -50,9 +123,7 @@
 		    <td><i class="fa fa-linkedin-square"></i><a href="https://ca.linkedin.com/in/tayssir-doghri">tayssir-doghri</a></td>
 		    <td>Software engineer</td>
 		  </tr>
-		</table>
-		
+		</table>	
 	</footer>
-	
 </body>
 </html>

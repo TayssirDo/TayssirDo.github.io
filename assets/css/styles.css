@@ -1,8 +1,4 @@
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+
 
 /* Header */
 .navbar {
@@ -23,11 +19,11 @@ body {
 }
 
 .navbar hr {
-	width: 100%;
-	height:4px;
-	border-width:0;
-	color:#F6F6F6;
-	background-color:#F6F6F6;
+  width: 100%;
+  height:4px;
+  border-width:0;
+  color:#F6F6F6;
+  background-color:#F6F6F6;
 }
 
 
@@ -46,9 +42,19 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 #footer {
-  position: absolute;
+  position: relative;
   background-color: #F6F6F6;
   bottom: 0;
   width: 100%;
@@ -81,4 +87,99 @@ body {
 #footer i {
   padding-right: 10px;
 }
+
+
+
+
+
+
+
+/* Body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.section-color {
+  font-size: 20px;   
+  text-align: center; 
+  background-color: #F6F6F6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Candara, Arial Black, sans-serif;
+}
+
+.section-white {
+  font-size: 20px;   
+  text-align: center; 
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Candara, Arial Black, sans-serif;
+}
+
+.section-white td { 
+  padding-top: 20px; 
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.section-white div { 
+  width: 240px; 
+  height: 240px; 
+  padding: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+  top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; 
+}
+
+.section-white a { 
+  color: #80b3ff;
+  text-decoration: none; 
+}
+.section-white a:hover { 
+  color: black;
+  text-decoration: underline;
+}
+
+
+.container
+{
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.container span
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.container ul, .container li
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container li
+{
+  display: none;
+}
+
+.container li.active
+{
+  display: inline;
+}
+
+
+
+
+
+
 
